@@ -13,12 +13,3 @@ while True:
     print("Sana:", sana, "Soat", soat, "Daqiqalar",daqiqalar)
 
     time.sleep(60)
-    
-def yulduz_shakli(hajm):
-     for i in range(hajm):
-        print("*" * (i + 1))
-
-if __name__ == "__main__":
-    hajm = int(input("Yulduz shaklini hajmini kiriting: "))
-    yulduz_shakli(hajm)
-
